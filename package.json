@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "base",
+    "jest",
+    "node"
+  ],
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
