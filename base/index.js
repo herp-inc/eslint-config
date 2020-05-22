@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
@@ -36,9 +35,11 @@ module.exports = {
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/prefer-function-type': 'error',
+        '@typescript-eslint/prefer-includes': 'error',
         '@typescript-eslint/prefer-nullish-coalescing': 'error',
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/prefer-readonly': 'error',
+        '@typescript-eslint/prefer-string-starts-ends-with': 'error',
         '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/strict-boolean-expressions': 'error',
       },
@@ -71,10 +72,8 @@ module.exports = {
     'no-useless-backreference': 'error',
     'no-useless-concat': 'error',
     'no-useless-return': 'error',
-    'no-var': 'error',
     'object-shorthand': 'error',
     'one-var': ['error', 'never'],
-    'prefer-const': 'error',
     'prefer-object-spread': 'error',
     'sort-imports': [
       'error',
