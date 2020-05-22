@@ -1,5 +1,11 @@
 # Change log
 
+## v0.3.0
+
+### Breaking changes
+
+- Move TypeScript-related rules from an override to the root.
+
 ## v0.2.1
 
 ### Bug fixes
