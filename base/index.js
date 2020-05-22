@@ -56,6 +56,7 @@ module.exports = {
         '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
         '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/strict-boolean-expressions': 'error',
+        '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
       },
     },
   ],
