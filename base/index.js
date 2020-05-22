@@ -53,6 +53,7 @@ module.exports = {
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/prefer-readonly': 'error',
         '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+        '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
         '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/strict-boolean-expressions': 'error',
       },
