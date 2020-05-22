@@ -1,5 +1,9 @@
 # Change log
 
+## v0.2.1
+
+- Fix option for [`@typescript-eslint/naming-convention`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md), which was wrongly specified.
+
 ## v0.2.0
 
 ### Breaking changes
