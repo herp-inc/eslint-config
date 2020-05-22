@@ -26,6 +26,19 @@ module.exports = {
           },
         ],
         '@typescript-eslint/explicit-member-accessibility': 'error',
+        '@typescript-eslint/naming-convention': [
+          'error',
+          [
+            {
+              selector: 'variableLike',
+              format: ['default'],
+            },
+            {
+              selector: 'typeLike',
+              format: ['PascalCase'],
+            },
+          ],
+        ],
         '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/no-throw-literal': 'error',
