@@ -38,6 +38,7 @@ module.exports = {
     'no-unneeded-ternary': 'error',
     'no-useless-backreference': 'error',
     'no-useless-concat': 'error',
+    'no-useless-rename': 'error',
     'no-useless-return': 'error',
     'object-shorthand': 'error',
     'one-var': ['error', 'never'],
