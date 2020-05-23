@@ -5,6 +5,7 @@
 ### Breaking changes
 
 - Turn on [`@typescript-eslint/dot-notation`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md).
+- Turn on [`@typescript-eslint/return-await`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/return-await.md) with the option of `'always'`.
 
 ### Non-breaking changes
 
