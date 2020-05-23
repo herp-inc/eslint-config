@@ -12,6 +12,9 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'import'],
   rules: {
+    // ESLint core rules superseded by @typescript-eslint
+    'dot-notation': 'off',
+
     // ESlint core
     curly: 'error',
     'default-case-last': 'error',
@@ -50,6 +53,7 @@ module.exports = {
 
     // @typescript-eslint
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+    '@typescript-eslint/dot-notation': 'error',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {

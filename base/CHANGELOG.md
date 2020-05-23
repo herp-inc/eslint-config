@@ -2,6 +2,10 @@
 
 ## v0.4.0
 
+### Breaking changes
+
+- Turn on [`@typescript-eslint/dot-notation`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md).
+
 ### Non-breaking changes
 
 - Turn off [`@typescript-eslint/no-unused-vars`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md).
