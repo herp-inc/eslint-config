@@ -1,5 +1,11 @@
 # Change log
 
+## v0.4.1
+
+### Non-breaking changes
+
+- Turn off [`@typescript-eslint/no-unused-vars`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md) explicitly.
+
 ## v0.4.0
 
 ### Breaking changes
