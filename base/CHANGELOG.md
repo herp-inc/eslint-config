@@ -1,5 +1,11 @@
 # Change log
 
+## v0.5.0
+
+### Breaking changes
+
+- Turn on [`@typescript-eslint/no-base-to-string`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-base-to-string.md).
+
 ## v0.4.1
 
 ### Non-breaking changes

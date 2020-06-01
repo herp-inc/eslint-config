@@ -65,6 +65,7 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-member-accessibility': 'error',
     '@typescript-eslint/naming-convention': ['error'],
+    '@typescript-eslint/no-base-to-string': 'error',
     '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-throw-literal': 'error',
