@@ -6,6 +6,10 @@
 
 - Turn on [`@typescript-eslint/no-base-to-string`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-base-to-string.md).
 
+### Non-breaking changes
+
+- Turn on `allowDeclarations` option for  [`@typescript-eslint/no-namespace`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-namespace.md).
+
 ## v0.4.1
 
 ### Non-breaking changes

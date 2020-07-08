@@ -67,6 +67,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': ['error'],
     '@typescript-eslint/no-base-to-string': 'error',
     '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
+    '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-throw-literal': 'error',
     '@typescript-eslint/no-unused-vars': 'off', // Let TypeScript check it
