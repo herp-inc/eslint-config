@@ -1,5 +1,11 @@
 # Change log
 
+## v0.6.0
+
+### Non-breaking changes
+
+- Accept `@typescript-eslint` suite v4.
+
 ## v0.5.0
 
 ### Breaking changes
@@ -8,7 +14,7 @@
 
 ### Non-breaking changes
 
-- Turn on `allowDeclarations` option for  [`@typescript-eslint/no-namespace`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-namespace.md).
+- Turn on `allowDeclarations` option for [`@typescript-eslint/no-namespace`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-namespace.md).
 
 ## v0.4.1
 
