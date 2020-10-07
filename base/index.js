@@ -64,7 +64,46 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-member-accessibility': 'error',
-    '@typescript-eslint/naming-convention': ['error'],
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'accessor',
+        format: ['camelCase'],
+      },
+      {
+        selector: 'enumMember',
+        format: ['PascalCase'],
+      },
+      {
+        selector: 'function',
+        format: ['camelCase', 'PascalCase'],
+      },
+      {
+        selector: 'method',
+        format: ['camelCase'],
+      },
+      {
+        selector: 'parameter',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+      },
+      {
+        selector: 'parameterProperty',
+        format: ['camelCase'],
+      },
+      {
+        selector: 'property',
+        format: ['camelCase', 'PascalCase'],
+      },
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+      },
+      {
+        selector: 'variable',
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+      },
+    ],
     '@typescript-eslint/no-base-to-string': 'error',
     '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
     '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
