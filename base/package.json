@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/herp-inc/eslint-config",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "3 || 4",
-    "@typescript-eslint/parser": "3 || 4",
+    "@typescript-eslint/eslint-plugin": "^4.2",
+    "@typescript-eslint/parser": "4",
     "eslint": "7",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "^2.20.0"
