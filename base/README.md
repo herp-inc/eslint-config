@@ -12,7 +12,7 @@ Note that the following packages are peer dependencies of this library, which ne
 | [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)               | `4`       |
 | [`eslint`](https://www.npmjs.com/package/eslint)                                                     | `7`       |
 | [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)                     | `*`       |
-| [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-config-import)                         | `^2.20.0` |
+| [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)                         | `^2.20.0` |
 
 ### Using [npm](https://www.npmjs.com/)
 
