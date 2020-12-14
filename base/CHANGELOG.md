@@ -1,5 +1,11 @@
 # Change log
 
+## v0.8.0
+
+### Breaking changes
+
+- Require [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) `^4.7` as a peer dependency
+
 ## v0.7.0
 
 ### Breaking changes
