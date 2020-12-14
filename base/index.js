@@ -104,6 +104,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-base-to-string': 'error',
+    '@typescript-eslint/no-confusing-void-expression': 'error',
     '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
     '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],

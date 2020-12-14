@@ -6,6 +6,7 @@
 
 - Require [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) `^4.7` as a peer dependency
 - Turn on [`@typescript-eslint/no-duplicate-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-duplicate-imports.md).
+- Turn on [`@typescript-eslint/no-confusing-void-expression`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-confusing-void-expression.md).
 - Turn off [`no-duplicate-imports`](https://eslint.org/docs/rules/no-duplicate-imports).
 
 ## v0.7.0
