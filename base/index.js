@@ -110,6 +110,7 @@ module.exports = {
     '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-throw-literal': 'error',
+    '@typescript-eslint/no-unnecessary-type-constraint': 'off',
     '@typescript-eslint/no-unused-vars': 'off', // Let TypeScript check it
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
     '@typescript-eslint/no-useless-constructor': 'error',
