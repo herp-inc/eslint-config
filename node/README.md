@@ -11,7 +11,7 @@ Note that the following packages are peer dependencies of this library, which ne
 | Package                                                                  | Version |
 | ------------------------------------------------------------------------ | ------- |
 | [`eslint`](https://www.npmjs.com/package/eslint)                         | `7`     |
-| [`eslint-config-node`](https://www.npmjs.com/package/eslint-config-node) | `11`    |
+| [`eslint-plugin-node`](https://www.npmjs.com/package/eslint-plugin-node) | `11`    |
 
 ### Using [npm](https://www.npmjs.com/)
 
