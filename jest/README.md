@@ -8,10 +8,10 @@ This package is intended to be used along with [`@herp-inc/eslint-config`](https
 
 Note that the following packages are peer dependencies of this library, which need to be installed separately.
 
-| Package                                                                  | Version |
-| ------------------------------------------------------------------------ | ------- |
-| [`eslint`](https://www.npmjs.com/package/eslint)                         | `7`     |
-| [`eslint-config-jest`](https://www.npmjs.com/package/eslint-config-jest) | `23`    |
+| Package                                                                  | Version    |
+| ------------------------------------------------------------------------ | ---------- |
+| [`eslint`](https://www.npmjs.com/package/eslint)                         | `7`        |
+| [`eslint-config-jest`](https://www.npmjs.com/package/eslint-config-jest) | `23 || 24` |
 
 ### Using [npm](https://www.npmjs.com/)
 
