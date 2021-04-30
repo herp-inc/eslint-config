@@ -22,7 +22,7 @@ $ npm install --save-dev @herp-inc/eslint-config-node
 ### Using [yarn](https://yarnpkg.com/)
 
 ```sh
-$ yarn install --save-dev @herp-inc/eslint-config
+$ yarn add --dev @herp-inc/eslint-config
 ```
 
 ## Usage
