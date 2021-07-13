@@ -5,6 +5,7 @@ module.exports = {
   extends: ['plugin:node/recommended'],
   plugins: ['node'],
   rules: {
+    'no-process-exit': 'off', // deprecated in ESLint v7.0.0
     'node/global-require': 'error',
     'node/no-path-concat': 'error',
     'node/no-process-exit': 'error',
