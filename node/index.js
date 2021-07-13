@@ -7,6 +7,7 @@ module.exports = {
   rules: {
     'no-process-exit': 'off', // deprecated in ESLint v7.0.0
     'node/global-require': 'error',
+    'node/no-missing-import': 'off', // let TypeScript check it
     'node/no-path-concat': 'error',
     'node/no-process-exit': 'error',
     'node/no-sync': 'error',
