@@ -79,11 +79,11 @@ module.exports = {
       },
       {
         selector: 'method',
-        format: ['camelCase'],
+        format: ['camelCase', 'PascalCase'],
       },
       {
         selector: 'parameter',
-        format: ['camelCase'],
+        format: ['camelCase', 'PascalCase'],
         leadingUnderscore: 'allow',
       },
       {
