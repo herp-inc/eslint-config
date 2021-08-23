@@ -1,5 +1,11 @@
 # Change log
 
+## v0.10.0
+
+### Non-breaking changes
+
+- Relax [`@typescript-eslint/naming-convention`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md) for properties.
+
 ## v0.9.0
 
 ### Non-breaking changes

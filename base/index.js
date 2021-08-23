@@ -91,10 +91,6 @@ module.exports = {
         format: ['camelCase'],
       },
       {
-        selector: 'property',
-        format: ['camelCase', 'PascalCase'],
-      },
-      {
         selector: 'typeLike',
         format: ['PascalCase'],
       },
