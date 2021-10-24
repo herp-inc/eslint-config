@@ -1,5 +1,11 @@
 # Change log
 
+## v0.3.0
+
+### Non-breaking changes
+
+- Allow [`eslint-plugin-jest`](https://www.npmjs.com/package/eslint-plugin-jest) v25.
+
 ## v0.2.0
 
 ### Non-breaking changes
