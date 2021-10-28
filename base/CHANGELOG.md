@@ -5,6 +5,7 @@
 ### Non-breaking changes
 
 - Allow [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) and [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser) v5.
+- Allow [`eslint`](https://www.npmjs.com/package/eslint) v8.
 
 ## v0.10.0
 
