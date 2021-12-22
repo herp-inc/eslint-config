@@ -80,6 +80,10 @@ module.exports = {
       {
         selector: 'method',
         format: ['camelCase', 'PascalCase'],
+        filter: {
+          regex: '^__resolveType$',
+          match: false,
+        },
       },
       {
         selector: 'parameter',
