@@ -1,0 +1,26 @@
+{
+  "name": "@herp-inc/eslint-config-jsx",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for JSX environments",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herp-inc/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "jsx"
+  ],
+  "author": "HERP, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herp-inc/eslint-config/issues"
+  },
+  "homepage": "https://github.com/herp-inc/eslint-config",
+  "peerDependencies": {
+    "eslint": "8",
+    "eslint-plugin-jsx-a11y": "^6.5.0",
+    "eslint-plugin-react": "^7.27.0"
+  }
+}

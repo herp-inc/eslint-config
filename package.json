@@ -3,6 +3,7 @@
   "workspaces": [
     "base",
     "jest",
+    "jsx",
     "node"
   ],
   "devDependencies": {
