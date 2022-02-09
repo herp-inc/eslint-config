@@ -1,0 +1,26 @@
+{
+  "name": "@herp-inc/eslint-config-react",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for React environments",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herp-inc/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "react"
+  ],
+  "author": "HERP, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herp-inc/eslint-config/issues"
+  },
+  "homepage": "https://github.com/herp-inc/eslint-config",
+  "peerDependencies": {
+    "eslint": "8",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
