@@ -5,6 +5,7 @@
 ### Non-breaking changes
 
 - Allow [`eslint`](https://www.npmjs.com/package/eslint) v8.
+- Allow [`eslint-plugin-jest`](https://www.npmjs.com/package/eslint-plugin-jest) v26.
 
 ## v0.3.0
 
