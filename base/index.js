@@ -123,6 +123,7 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/require-array-sort-compare': 'error',
+    '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
     '@typescript-eslint/return-await': ['error', 'always'],
     '@typescript-eslint/promise-function-async': 'error',

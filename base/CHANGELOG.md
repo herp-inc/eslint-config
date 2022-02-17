@@ -1,5 +1,11 @@
 # Change log
 
+## v0.13.0
+
+### Non-breaking changes
+
+- Turn off [`@typescript-eslint/require-await`](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/require-await.md).
+
 ## v0.12.0
 
 ### Non-breaking changes
