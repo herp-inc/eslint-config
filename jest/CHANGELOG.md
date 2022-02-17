@@ -1,5 +1,11 @@
 # Change log
 
+## v0.4.0
+
+### Non-breaking changes
+
+- Allow [`eslint`](https://www.npmjs.com/package/eslint) v8.
+
 ## v0.3.0
 
 ### Non-breaking changes
