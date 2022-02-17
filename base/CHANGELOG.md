@@ -1,5 +1,11 @@
 # Change log
 
+## v0.12.0
+
+### Non-breaking changes
+
+- Allow `__resolveType` as a method name
+
 ## v0.11.0
 
 ### Non-breaking changes
