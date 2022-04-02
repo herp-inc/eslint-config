@@ -19,10 +19,10 @@
   },
   "homepage": "https://github.com/herp-inc/eslint-config",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.7 || 5",
-    "@typescript-eslint/parser": "4 || 5",
-    "eslint": "7 || 8",
+    "@typescript-eslint/eslint-plugin": "5",
+    "@typescript-eslint/parser": "5",
+    "eslint": "8",
     "eslint-config-prettier": "*",
-    "eslint-plugin-import": "^2.20.0"
+    "eslint-plugin-import": "^2.25.0"
   }
 }

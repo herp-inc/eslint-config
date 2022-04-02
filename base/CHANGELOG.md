@@ -1,5 +1,11 @@
 # Change log
 
+## v0.15.0
+
+### Breaking changes
+
+- Drop support for ESLint v7.
+
 ## v0.14.0
 
 ### Non-breaking changes
