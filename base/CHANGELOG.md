@@ -5,6 +5,7 @@
 ### Breaking changes
 
 - Turn on [`@typescript-eslint/no-unused-expressions`](https://typescript-eslint.io/rules/no-unused-expressions/).
+- Turn on [`@typescript-eslint/no-unnecessary-boolean-literal-compare`](https://typescript-eslint.io/rules/no-unnecessary-boolean-literal-compare)
 
 ## v0.15.0
 
