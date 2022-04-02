@@ -1,5 +1,11 @@
 # Change log
 
+## v0.16.0
+
+### Breaking changes
+
+- Turn on [`@typescript-eslint/no-unused-expressions`](https://typescript-eslint.io/rules/no-unused-expressions/).
+
 ## v0.15.0
 
 ### Breaking changes
