@@ -1,5 +1,11 @@
 # Change log
 
+## v0.17.0
+
+### Breaking changes
+
+- Turn on [`@typescript-eslint/no-invalid-void-type`](https://typescript-eslint.io/rules/no-invalid-void-type).
+
 ## v0.16.0
 
 ### Breaking changes
