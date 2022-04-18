@@ -5,6 +5,7 @@
 ### Breaking changes
 
 - Turn on [`@typescript-eslint/no-invalid-void-type`](https://typescript-eslint.io/rules/no-invalid-void-type).
+- Turn on [`@typescript-eslint/no-unnecessary-condition`](https://typescript-eslint.io/rules/no-unnecessary-condition).
 
 ## v0.16.0
 
