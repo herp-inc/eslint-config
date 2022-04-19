@@ -7,6 +7,10 @@
 - Turn on [`@typescript-eslint/no-invalid-void-type`](https://typescript-eslint.io/rules/no-invalid-void-type).
 - Turn on [`@typescript-eslint/no-unnecessary-condition`](https://typescript-eslint.io/rules/no-unnecessary-condition).
 
+### Non-breaking changes
+
+- Turn off [`no-mixed-operators`](https://eslint.org/docs/rules/no-mixed-operators).
+
 ## v0.16.0
 
 ### Breaking changes

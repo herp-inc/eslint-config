@@ -22,7 +22,6 @@ module.exports = {
     'no-console': 'error',
     'no-else-return': ['error', { allowElseIf: false }],
     'no-lonely-if': 'error',
-    'no-mixed-operators': 'error',
     'no-multi-assign': 'error',
     'no-negated-condition': 'error',
     'no-new': 'error',
