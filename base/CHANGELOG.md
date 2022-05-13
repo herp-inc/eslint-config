@@ -1,5 +1,11 @@
 # Change log
 
+## v0.18.0
+
+### Breaking changes
+
+- Turn on [`@typescript-eslint/no-unnecessary-qualifier`](https://typescript-eslint.io/rules/no-unnecessary-qualifier).
+
 ## v0.17.0
 
 ### Breaking changes
