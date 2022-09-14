@@ -34,7 +34,7 @@
 
 ### Non-breaking changes
 
-- Enable `allowSingleExtends` option of [`@typescript-eslint/require-await`](https://typescript-eslint.io/rules/no-empty-interface/).
+- Enable `allowSingleExtends` option of [`@typescript-eslint/no-empty-interface`](https://typescript-eslint.io/rules/no-empty-interface/).
 
 ## v0.13.0
 
