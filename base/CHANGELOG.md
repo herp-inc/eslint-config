@@ -1,5 +1,15 @@
 # Change log
 
+## v0.19.0
+
+### Breaking changes
+
+- Turn on [`import/no-duplicates`](https://github.com/import-js/eslint-plugin-import/blob/HEAD/docs/rules/no-duplicates.md).
+
+### Non-breaking changes
+
+- Turn off [`@typescript-eslint/no-duplicate-imports`](https://typescript-eslint.io/rules/no-duplicate-imports/).
+
 ## v0.18.0
 
 ### Breaking changes
