@@ -30,7 +30,7 @@ module.exports = {
     'no-param-reassign': 'error',
     'no-return-assign': 'error',
     'no-self-compare': 'error',
-    'no-sequences': 'error',
+    'no-sequences': ['error', { allowInParentheses: false }],
     'no-underscore-dangle': 'error',
     'no-unmodified-loop-condition': 'error',
     'no-unneeded-ternary': 'error',

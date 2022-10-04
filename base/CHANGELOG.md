@@ -1,5 +1,11 @@
 # Change log
 
+## v0.20.0
+
+### Non-breaking changes
+
+- Set `allowInParentheses` to `false` in [`no-sequences`](https://eslint.org/docs/latest/rules/no-sequences).
+
 ## v0.19.0
 
 ### Breaking changes
