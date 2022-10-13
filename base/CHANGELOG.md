@@ -2,6 +2,10 @@
 
 ## v0.20.0
 
+### Breaking changes
+
+- Turn on [`@typescript-eslint/consistent-type-assertions`](https://typescript-eslint.io/rules/consistent-type-assertions/).
+
 ### Non-breaking changes
 
 - Set `allowInParentheses` to `false` in [`no-sequences`](https://eslint.org/docs/latest/rules/no-sequences).

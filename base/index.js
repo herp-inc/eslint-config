@@ -51,6 +51,13 @@ module.exports = {
 
     // @typescript-eslint
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+    '@typescript-eslint/consistent-type-assertions': [
+      'error',
+      {
+        assertionStyle: 'as',
+        objectLiteralTypeAssertions: 'never',
+      },
+    ],
     '@typescript-eslint/dot-notation': 'error',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
