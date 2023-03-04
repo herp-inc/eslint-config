@@ -32,9 +32,6 @@ Add `@herp-inc/eslint-config-react` to the `extends` section of your [ESLint con
 
 ```json
 {
-  "env": {
-    "react": true
-  },
   "extends": ["@herp-inc", "@herp-inc/eslint-config-react"]
 }
 ```

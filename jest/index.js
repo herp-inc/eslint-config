@@ -1,7 +1,4 @@
 module.exports = {
-  env: {
-    node: true,
-  },
   extends: ['plugin:jest/recommended', 'plugin:jest/style'],
   plugins: ['jest'],
   rules: {
