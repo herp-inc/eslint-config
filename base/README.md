@@ -37,7 +37,6 @@ Add `@herp-inc` to the `extends` section of your [ESLint configuration](http://e
   "parserOptions": {
     "project": "./tsconfig.json",
     "sourceType": "module"
-  },
-  "plugins": ["@typescript-eslint", "import"]
+  }
 }
 ```

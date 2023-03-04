@@ -31,7 +31,6 @@ Add `@herp-inc/eslint-config-node` to the `extends` section of your [ESLint conf
 
 ```json
 {
-  "extends": ["@herp-inc", "@herp-inc/eslint-config-node"],
-  "plugins": ["node"]
+  "extends": ["@herp-inc", "@herp-inc/eslint-config-node"]
 }
 ```

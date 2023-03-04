@@ -35,8 +35,7 @@ Add `@herp-inc/eslint-config-jest` to the `extends` section of your [ESLint conf
   "overrides": [
     {
       "extends": ["@herp-inc/eslint-config-jest"],
-      "files": ["*.test.ts"],
-      "plugins": ["jest"]
+      "files": ["*.test.ts"]
     }
   ]
 }
