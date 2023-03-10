@@ -5,6 +5,7 @@
 ### Breaking changes
 
 - Turn on [`import/no-absolute-path`](https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md).
+- Turn on [`import/no-extraneous-dependencies`](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md).
 
 ## v0.20.0
 
