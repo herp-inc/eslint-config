@@ -149,6 +149,7 @@ module.exports = {
     'import/no-duplicates': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
+    'import/no-relative-packages': 'error',
     'import/no-unassigned-import': 'error',
     'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
     'import/order': [
