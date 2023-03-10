@@ -1,5 +1,11 @@
 # Change log
 
+## v0.21.0
+
+### Breaking changes
+
+- Turn on [`import/no-absolute-path`](https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md).
+
 ## v0.20.0
 
 ### Breaking changes

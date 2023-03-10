@@ -143,6 +143,7 @@ module.exports = {
 
     // import
     'import/first': 'error',
+    'import/no-absolute-path': 'error',
     'import/no-default-export': 'error',
     'import/no-deprecated': 'error',
     'import/no-duplicates': 'error',
