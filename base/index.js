@@ -114,6 +114,7 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
     '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
     '@typescript-eslint/no-invalid-void-type': ['error', { allowAsThisParameter: true }],
+    '@typescript-eslint/no-misused-promises': ['error', { checksVoidReturn: false }],
     '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-throw-literal': 'error',

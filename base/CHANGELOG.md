@@ -1,5 +1,11 @@
 # Change log
 
+## v0.22.0
+
+### Non-breaking changes
+
+- Set `checksVoidReturn` to `false` in [`@typescript-eslint/no-misused-promises`](https://typescript-eslint.io/rules/no-misused-promises/).
+
 ## v0.21.0
 
 ### Breaking changes
