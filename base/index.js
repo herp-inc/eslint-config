@@ -6,6 +6,14 @@ module.exports = {
     'plugin:import/typescript',
     'prettier',
   ],
+  overrides: [
+    {
+      files: ['*.d.ts', '*.d.*.ts'],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',

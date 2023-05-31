@@ -1,5 +1,11 @@
 # Change log
 
+## v0.23.0
+
+### Non-breaking changes
+
+- Allow default exports in type declaration files.
+
 ## v0.22.0
 
 ### Non-breaking changes
