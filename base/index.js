@@ -39,7 +39,7 @@ module.exports = {
     'no-return-assign': 'error',
     'no-self-compare': 'error',
     'no-sequences': ['error', { allowInParentheses: false }],
-    'no-underscore-dangle': 'error',
+    'no-underscore-dangle': ['error', { allow: ['__typename'] }],
     'no-unmodified-loop-condition': 'error',
     'no-unneeded-ternary': 'error',
     'no-useless-backreference': 'error',

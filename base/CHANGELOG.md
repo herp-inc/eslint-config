@@ -1,5 +1,11 @@
 # Change log
 
+## v0.24.0
+
+### Non-breaking changes
+
+- Allow `__typename` in [`no-underscore-dangle`](https://eslint.org/docs/latest/rules/no-underscore-dangle).
+
 ## v0.23.0
 
 ### Non-breaking changes
