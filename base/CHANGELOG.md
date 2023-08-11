@@ -1,5 +1,11 @@
 # Change log
 
+## v0.25.0
+
+### Non-breaking changes
+
+- Allow typescript-eslint v6 as peer dependencies
+
 ## v0.24.0
 
 ### Non-breaking changes
