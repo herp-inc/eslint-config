@@ -1,5 +1,11 @@
 # Change log
 
+## v0.26.0
+
+### Non-breaking changes
+
+- Set [`noUselessIndex` option](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-useless-path-segments.md#nouselessindex) of [`import/no-useless-path-segments`](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-useless-path-segments.md) to `false`.
+
 ## v0.25.0
 
 ### Non-breaking changes

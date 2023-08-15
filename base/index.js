@@ -160,7 +160,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-relative-packages': 'error',
     'import/no-unassigned-import': 'error',
-    'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
+    'import/no-useless-path-segments': ['error'],
     'import/order': [
       'error',
       {
