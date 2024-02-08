@@ -1,5 +1,11 @@
 # Change log
 
+## v0.27.0
+
+### Non-breaking change
+
+- Turn off [`no-underscore-dangle`](https://eslint.org/docs/latest/rules/no-underscore-dangle).
+
 ## v0.26.0
 
 ### Non-breaking changes
