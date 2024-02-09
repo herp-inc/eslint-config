@@ -1,5 +1,12 @@
 # Change log
 
+## v0.28.0
+
+### Breaking changes
+
+- Require typescript-eslint v6.
+- Extend `@typescript-eslint/recommended-type-checked` and `@typescript-eslint/stylistic-type-checked`.
+
 ## v0.27.0
 
 ### Non-breaking change

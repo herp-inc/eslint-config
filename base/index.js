@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:import/typescript',
     'prettier',
   ],
@@ -20,9 +20,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'import'],
   rules: {
-    // ESLint core rules superseded by @typescript-eslint
-    'dot-notation': 'off',
-
     // ESlint core
     curly: 'error',
     'default-case-last': 'error',
@@ -65,7 +62,6 @@ module.exports = {
         objectLiteralTypeAssertions: 'never',
       },
     ],
-    '@typescript-eslint/dot-notation': 'error',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
@@ -116,7 +112,6 @@ module.exports = {
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
       },
     ],
-    '@typescript-eslint/no-base-to-string': 'error',
     '@typescript-eslint/no-confusing-void-expression': 'error',
     '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
     '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
@@ -128,19 +123,12 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
     '@typescript-eslint/no-unnecessary-condition': ['error', { allowConstantLoopConditions: true }],
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
-    '@typescript-eslint/no-unnecessary-type-constraint': 'off',
     '@typescript-eslint/no-unused-expressions': ['error', { enforceForJSX: true }],
     '@typescript-eslint/no-unused-vars': 'off', // Let TypeScript check it
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
     '@typescript-eslint/no-useless-constructor': 'error',
-    '@typescript-eslint/prefer-as-const': 'error',
-    '@typescript-eslint/prefer-for-of': 'error',
-    '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-includes': 'error',
-    '@typescript-eslint/prefer-nullish-coalescing': 'error',
-    '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
-    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
