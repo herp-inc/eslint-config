@@ -55,6 +55,7 @@ module.exports = {
 
     // @typescript-eslint
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+    '@typescript-eslint/class-literal-property-style': 'off',
     '@typescript-eslint/consistent-type-assertions': [
       'error',
       {

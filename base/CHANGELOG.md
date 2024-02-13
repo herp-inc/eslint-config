@@ -1,5 +1,11 @@
 # Change log
 
+## v0.29.0
+
+### Non-breaking changes
+
+- Turn off [`@typescript-eslint/class-literal-property-style`](https://typescript-eslint.io/rules/class-literal-property-style/).
+
 ## v0.28.0
 
 ### Breaking changes
