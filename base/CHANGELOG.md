@@ -1,5 +1,15 @@
 # Change log
 
+## v0.30.0
+
+### Breaking changes
+
+- Require ESLint `^8.56.0` as a peer dependency.
+
+### Non-breaking changes
+
+- Allow typescript-eslint v7 as peer dependencies.
+
 ## v0.29.0
 
 ### Non-breaking changes
