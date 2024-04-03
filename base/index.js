@@ -65,6 +65,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'separate-type-imports' }],
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
@@ -113,6 +114,10 @@ module.exports = {
       {
         selector: 'variable',
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        filter: {
+          regex: '^_$',
+          match: false,
+        },
       },
     ],
     '@typescript-eslint/no-confusing-void-expression': 'error',
@@ -141,6 +146,7 @@ module.exports = {
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
 
     // import
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
     'import/first': 'error',
     'import/no-absolute-path': 'error',
     'import/no-default-export': 'error',

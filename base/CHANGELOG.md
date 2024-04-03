@@ -1,5 +1,11 @@
 # Change log
 
+## v0.31.0
+
+### Non-breaking changes
+
+- Allow `_` as a variable name.
+
 ## v0.30.0
 
 ### Breaking changes
