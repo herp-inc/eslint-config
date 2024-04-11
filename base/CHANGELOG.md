@@ -1,5 +1,11 @@
 # Change log
 
+## v0.31.1
+
+### Non-breaking changes
+
+- Revert unintended changes.
+
 ## v0.31.0
 
 ### Non-breaking changes

@@ -65,7 +65,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/consistent-type-definitions': 'off',
-    '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'separate-type-imports' }],
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
@@ -146,7 +145,6 @@ module.exports = {
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
 
     // import
-    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
     'import/first': 'error',
     'import/no-absolute-path': 'error',
     'import/no-default-export': 'error',
