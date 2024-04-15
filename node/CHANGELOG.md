@@ -1,5 +1,13 @@
 # Change log
 
+## v0.3.1
+
+### Non-breaking changes
+
+- Replace [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) to [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)
+  - eslint-plugin-node project has been no longer maintained.
+  - Use its successor, [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n).
+
 ## v0.3.0
 
 ### Non-breaking changes
