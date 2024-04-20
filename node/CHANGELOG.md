@@ -1,5 +1,12 @@
 # Change log
 
+## v0.4.0
+
+### Breaking changes
+
+- Replace [`eslint-plugin-node`](https://www.npmjs.com/package/eslint-plugin-node) to [`eslint-plugin-n`](https://www.npmjs.com/package/eslint-plugin-n)
+  - `eslint-plugin-node` project has been no longer maintained.
+
 ## v0.3.0
 
 ### Non-breaking changes
