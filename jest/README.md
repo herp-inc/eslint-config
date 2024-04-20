@@ -10,7 +10,7 @@ Note that the following packages are peer dependencies of this library, which ne
 
 | Package                                                                  | Version                      |
 | ------------------------------------------------------------------------ | ---------------------------- |
-| [`eslint`](https://www.npmjs.com/package/eslint)                         | `7 \|\| 8`                   |
+| [`eslint`](https://www.npmjs.com/package/eslint)                         | `8`                          |
 | [`eslint-plugin-jest`](https://www.npmjs.com/package/eslint-plugin-jest) | `23 \|\| 24 \|\| 25 \|\| 26` |
 
 ### Using [npm](https://www.npmjs.com/)
