@@ -103,6 +103,11 @@ module.exports = {
         leadingUnderscore: 'allow',
       },
       {
+        selector: 'parameter',
+        modifiers: ['destructured'],
+        format: null,
+      },
+      {
         selector: 'parameterProperty',
         format: ['camelCase'],
       },
@@ -117,6 +122,11 @@ module.exports = {
           regex: '^_$',
           match: false,
         },
+      },
+      {
+        selector: 'variable',
+        modifiers: ['destructured'],
+        format: null,
       },
     ],
     '@typescript-eslint/no-confusing-void-expression': 'error',
