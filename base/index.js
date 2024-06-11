@@ -98,6 +98,14 @@ module.exports = {
         },
       },
       {
+        selector: 'objectLiteralMethod',
+        format: null,
+      },
+      {
+        selector: 'objectLiteralProperty',
+        format: null,
+      },
+      {
         selector: 'parameter',
         format: ['camelCase', 'PascalCase'],
         leadingUnderscore: 'allow',
