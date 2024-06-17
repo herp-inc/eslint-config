@@ -185,6 +185,13 @@ module.exports = {
             fixMixedExportsWithInlineTypeSpecifier: false,
           },
         ],
+        '@typescript-eslint/consistent-type-imports': [
+          'warn',
+          {
+            fixStyle: 'separate-type-imports',
+            prefer: 'type-imports',
+          },
+        ],
       },
     },
     {
