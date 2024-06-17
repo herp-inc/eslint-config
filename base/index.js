@@ -192,6 +192,7 @@ module.exports = {
             prefer: 'type-imports',
           },
         ],
+        '@typescript-eslint/no-array-delete': 'warn',
         'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
       },
     },
