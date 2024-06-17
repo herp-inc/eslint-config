@@ -195,6 +195,7 @@ module.exports = {
         '@typescript-eslint/no-dynamic-delete': 'warn',
         '@typescript-eslint/no-extraneous-class': 'warn',
         '@typescript-eslint/no-meaningless-void-operator': 'warn',
+        '@typescript-eslint/no-mixed-enums': 'warn',
         'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
       },
     },
