@@ -199,6 +199,7 @@ module.exports = {
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'warn',
         '@typescript-eslint/no-unnecessary-template-expression': 'warn',
         'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
+        'import/exports-last': 'warn',
       },
     },
     {
