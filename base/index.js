@@ -193,6 +193,7 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-array-delete': 'warn',
+        '@typescript-eslint/no-dynamic-delete': 'warn',
         'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
       },
     },
