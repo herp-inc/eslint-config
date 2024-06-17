@@ -196,6 +196,7 @@ module.exports = {
         '@typescript-eslint/no-extraneous-class': 'warn',
         '@typescript-eslint/no-meaningless-void-operator': 'warn',
         '@typescript-eslint/no-mixed-enums': 'warn',
+        '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'warn',
         'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
       },
     },
