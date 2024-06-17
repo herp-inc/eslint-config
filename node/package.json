@@ -21,6 +21,6 @@
   "homepage": "https://github.com/herp-inc/eslint-config",
   "peerDependencies": {
     "eslint": "8 || 9",
-    "eslint-plugin-n": "14 || 15 || 16 || 17"
+    "eslint-plugin-n": "17"
   }
 }
