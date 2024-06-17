@@ -192,6 +192,7 @@ module.exports = {
             prefer: 'type-imports',
           },
         ],
+        'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
       },
     },
     {
