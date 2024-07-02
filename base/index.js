@@ -177,6 +177,14 @@ module.exports = {
             'newlines-between': 'always',
           },
         ],
+
+        // Preview 202407
+        '@typescript-eslint/consistent-type-exports': [
+          'warn',
+          {
+            fixMixedExportsWithInlineTypeSpecifier: false,
+          },
+        ],
       },
     },
     {
