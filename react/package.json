@@ -1,6 +1,6 @@
 {
   "name": "@herp-inc/eslint-config-react",
-  "version": "202406.4.0",
+  "version": "202406.5.0",
   "description": "ESLint shareable config for React environments",
   "main": "index.js",
   "repository": {
