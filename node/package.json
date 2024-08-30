@@ -1,6 +1,6 @@
 {
   "name": "@herp-inc/eslint-config-node",
-  "version": "202406.5.0",
+  "version": "202406.5.1",
   "description": "ESLint shareable config for Node.js environments",
   "main": "index.js",
   "repository": {
