@@ -21,6 +21,6 @@
   "peerDependencies": {
     "eslint": "8 || 9",
     "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
