@@ -11,7 +11,7 @@ Note that the following packages are peer dependencies of this library, which ne
 | Package                                                            | Version    |
 | ------------------------------------------------------------------ | ---------- |
 | [`eslint`](https://www.npmjs.com/package/eslint)                   | `8 \|\| 9` |
-| [`eslint-plugin-n`](https://www.npmjs.com/package/eslint-plugin-n) | `17`       |
+| [`eslint-plugin-n`](https://www.npmjs.com/package/eslint-plugin-n) | `^17.10.0` |
 
 ### Using [npm](https://www.npmjs.com/)
 
