@@ -20,6 +20,6 @@
   "homepage": "https://github.com/herp-inc/eslint-config",
   "peerDependencies": {
     "eslint": "8 || 9",
-    "eslint-plugin-jest": "28"
+    "eslint-plugin-jest": "^28.8.0"
   }
 }
