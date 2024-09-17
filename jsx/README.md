@@ -11,7 +11,7 @@ Note that the following packages are peer dependencies of this library, which ne
 | Package                                                                          | Version    |
 | -------------------------------------------------------------------------------- | ---------- |
 | [`eslint`](https://www.npmjs.com/package/eslint)                                 | `8 \|\| 9` |
-| [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) | `^6.5.0`   |
+| [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) | `^6.9.0`   |
 | [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)       | `^7.35.0`  |
 
 ### Using [npm](https://www.npmjs.com/)
