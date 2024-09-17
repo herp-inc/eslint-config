@@ -8,8 +8,8 @@ Note that the following packages are peer dependencies of this library, which ne
 
 | Package                                                                                              | Version          |
 | ---------------------------------------------------------------------------------------------------- | ---------------- |
-| [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | `7`              |
-| [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)               | `7`              |
+| [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | `7 \|\| 8`       |
+| [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)               | `7 \|\| 8`       |
 | [`eslint`](https://www.npmjs.com/package/eslint)                                                     | `^8.56.0 \|\| 9` |
 | [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)                     | `*`              |
 | [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)                         | `^2.25.0`        |
