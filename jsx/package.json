@@ -3,6 +3,14 @@
   "version": "202409.0.0",
   "description": "ESLint shareable config for JSX environments",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    },
+    "./flat": {
+      "import": "./flat.mjs"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/herp-inc/eslint-config"

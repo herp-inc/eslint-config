@@ -40,3 +40,26 @@ Add `@herp-inc/eslint-config-jest` to the `extends` section of your [ESLint conf
   ]
 }
 ```
+
+## [Flat config](https://eslint.org/docs/latest/use/configure/configuration-files) support (experimental)
+
+> [!WARNING]
+> This feature is still experimental, and thus may encounter breaking changes even in a minor version.
+
+Make sure that the following packages are installed as peer dependencies.
+
+| Package                                                                  | Version          |
+| ------------------------------------------------------------------------ | ---------------- |
+| [`eslint`](https://www.npmjs.com/package/eslint)                         | `^8.21.0 \|\| 9` |
+| [`eslint-plugin-jest`](https://www.npmjs.com/package/eslint-plugin-jest) | `^28.8.0`        |
+
+```eslint.config.js
+import config from '@herp-inc/eslint-config/flat';
+import configJest from '@herp-inc/eslint-config-jest/flat';
+
+export default [
+  ...config,
+  ...configJest,
+  // Add your additional configurations here
+];
+```

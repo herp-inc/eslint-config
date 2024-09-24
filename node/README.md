@@ -34,3 +34,26 @@ Add `@herp-inc/eslint-config-node` to the `extends` section of your [ESLint conf
   "extends": ["@herp-inc", "@herp-inc/eslint-config-node"]
 }
 ```
+
+## [Flat config](https://eslint.org/docs/latest/use/configure/configuration-files) support (experimental)
+
+> [!WARNING]
+> This feature is still experimental, and thus may encounter breaking changes even in a minor version.
+
+Make sure that the following packages are installed as peer dependencies.
+
+| Package                                                            | Version          |
+| ------------------------------------------------------------------ | ---------------- |
+| [`eslint`](https://www.npmjs.com/package/eslint)                   | `^8.21.0 \|\| 9` |
+| [`eslint-plugin-n`](https://www.npmjs.com/package/eslint-plugin-n) | `^17.10.0`       |
+
+```eslint.config.js
+import config from '@herp-inc/eslint-config/flat';
+import configNode from '@herp-inc/eslint-config-node/flat';
+
+export default [
+  ...config,
+  ...configNode,
+  // Add your additional configurations here
+];
+```
