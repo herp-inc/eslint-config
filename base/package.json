@@ -1,6 +1,6 @@
 {
   "name": "@herp-inc/eslint-config",
-  "version": "202409.1.0",
+  "version": "202409.1.1",
   "description": "ESLint shareable config for TypeScript environments",
   "main": "index.js",
   "exports": {
