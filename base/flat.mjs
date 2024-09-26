@@ -37,7 +37,7 @@ export default [
         },
       },
       {
-        rules: config.rules,
+        rules: config.overrides[0].rules,
       },
     )
     .map((config) => ({
