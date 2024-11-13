@@ -206,6 +206,7 @@ module.exports = {
         '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
         '@typescript-eslint/prefer-literal-enum-member': 'warn',
         '@typescript-eslint/prefer-return-this-type': 'warn',
+        '@typescript-eslint/unified-signatures': 'warn',
       },
     },
     {
