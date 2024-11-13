@@ -203,6 +203,7 @@ module.exports = {
 
         // Preview 202411
         '@typescript-eslint/method-signature-style': 'warn',
+        '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
       },
     },
     {
