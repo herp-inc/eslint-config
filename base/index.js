@@ -205,6 +205,7 @@ module.exports = {
         '@typescript-eslint/method-signature-style': 'warn',
         '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
         '@typescript-eslint/prefer-literal-enum-member': 'warn',
+        '@typescript-eslint/prefer-return-this-type': 'warn',
       },
     },
     {
