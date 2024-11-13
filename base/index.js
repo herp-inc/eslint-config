@@ -200,6 +200,9 @@ module.exports = {
         'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
         'import/exports-last': 'warn',
         'import/no-cycle': 'warn',
+
+        // Preview 202411
+        '@typescript-eslint/method-signature-style': 'warn',
       },
     },
     {
