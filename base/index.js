@@ -61,6 +61,19 @@ module.exports = {
           },
         ],
         '@typescript-eslint/consistent-type-definitions': 'off',
+        '@typescript-eslint/consistent-type-exports': [
+          'error',
+          {
+            fixMixedExportsWithInlineTypeSpecifier: false,
+          },
+        ],
+        '@typescript-eslint/consistent-type-imports': [
+          'error',
+          {
+            fixStyle: 'separate-type-imports',
+            prefer: 'type-imports',
+          },
+        ],
         '@typescript-eslint/explicit-function-return-type': [
           'error',
           {
@@ -133,12 +146,18 @@ module.exports = {
             format: null,
           },
         ],
+        '@typescript-eslint/no-array-delete': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
+        '@typescript-eslint/no-dynamic-delete': 'error',
         '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
+        '@typescript-eslint/no-extraneous-class': 'error',
         '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
         '@typescript-eslint/no-invalid-void-type': ['error', { allowAsThisParameter: true }],
+        '@typescript-eslint/no-meaningless-void-operator': 'error',
         '@typescript-eslint/no-misused-promises': ['error', { checksVoidReturn: false }],
+        '@typescript-eslint/no-mixed-enums': 'error',
         '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
+        '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
@@ -158,8 +177,11 @@ module.exports = {
         '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
 
         // import
+        'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
+        'import/exports-last': 'error',
         'import/first': 'error',
         'import/no-absolute-path': 'error',
+        'import/no-cycle': 'error',
         'import/no-default-export': 'error',
         'import/no-deprecated': 'error',
         'import/no-duplicates': 'error',
@@ -176,30 +198,6 @@ module.exports = {
             'newlines-between': 'always',
           },
         ],
-
-        // Preview 202407
-        '@typescript-eslint/consistent-type-exports': [
-          'warn',
-          {
-            fixMixedExportsWithInlineTypeSpecifier: false,
-          },
-        ],
-        '@typescript-eslint/consistent-type-imports': [
-          'warn',
-          {
-            fixStyle: 'separate-type-imports',
-            prefer: 'type-imports',
-          },
-        ],
-        '@typescript-eslint/no-array-delete': 'warn',
-        '@typescript-eslint/no-dynamic-delete': 'warn',
-        '@typescript-eslint/no-extraneous-class': 'warn',
-        '@typescript-eslint/no-meaningless-void-operator': 'warn',
-        '@typescript-eslint/no-mixed-enums': 'warn',
-        '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'warn',
-        'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
-        'import/exports-last': 'warn',
-        'import/no-cycle': 'warn',
 
         // Preview 202411
         '@typescript-eslint/method-signature-style': 'warn',
