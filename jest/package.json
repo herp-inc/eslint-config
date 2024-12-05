@@ -1,6 +1,6 @@
 {
   "name": "@herp-inc/eslint-config-jest",
-  "version": "202409.2.0",
+  "version": "202409.3.0",
   "description": "ESLint shareable config for Jest environments",
   "main": "index.js",
   "exports": {
