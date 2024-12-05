@@ -28,12 +28,12 @@
   "homepage": "https://github.com/herp-inc/eslint-config",
   "peerDependencies": {
     "@eslint/js": "^8.56.0 || 9",
-    "@typescript-eslint/eslint-plugin": "7 || 8",
-    "@typescript-eslint/parser": "7 || 8",
+    "@typescript-eslint/eslint-plugin": "8",
+    "@typescript-eslint/parser": "8",
     "eslint": "^8.56.0 || 9",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "^2.30.0",
-    "typescript-eslint": "7 || 8"
+    "typescript-eslint": "8"
   },
   "peerDependenciesMeta": {
     "@eslint/js": {

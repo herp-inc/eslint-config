@@ -159,7 +159,6 @@ module.exports = {
         '@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
         '@typescript-eslint/no-require-imports': 'error',
-        '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
         '@typescript-eslint/no-unnecessary-condition': ['error', { allowConstantLoopConditions: true }],
         '@typescript-eslint/no-unused-expressions': ['error', { enforceForJSX: true }],

@@ -8,8 +8,8 @@ Note that the following packages are peer dependencies of this library, which ne
 
 | Package                                                                                              | Version          |
 | ---------------------------------------------------------------------------------------------------- | ---------------- |
-| [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | `7 \|\| 8`       |
-| [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)               | `7 \|\| 8`       |
+| [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | `8`              |
+| [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)               | `8`              |
 | [`eslint`](https://www.npmjs.com/package/eslint)                                                     | `^8.56.0 \|\| 9` |
 | [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)                     | `*`              |
 | [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)                         | `^2.30.0`        |
@@ -54,7 +54,7 @@ Make sure that the following packages are installed as peer dependencies.
 | [`eslint`](https://www.npmjs.com/package/eslint)                                 | `^8.56.0 \|\| 9` |
 | [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier) | `9`              |
 | [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)     | `^2.30.0`        |
-| [`typescript-eslint`](https://www.npmjs.com/package/typescript-eslint)           | `7 \|\| 8`       |
+| [`typescript-eslint`](https://www.npmjs.com/package/typescript-eslint)           | `8`              |
 
 ```eslint.config.js
 import config from '@herp-inc/eslint-config/flat';
