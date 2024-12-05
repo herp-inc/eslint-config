@@ -8,11 +8,11 @@ This package is intended to be used along with [`@herp-inc/eslint-config`](https
 
 Note that the following packages are peer dependencies of this library, which need to be installed separately.
 
-| Package                                                                                | Version    |
-| -------------------------------------------------------------------------------------- | ---------- |
-| [`eslint`](https://www.npmjs.com/package/eslint)                                       | `8 \|\| 9` |
-| [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)             | `^7.35.0`  |
-| [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks) | `^4.6.0`   |
+| Package                                                                                | Version         |
+| -------------------------------------------------------------------------------------- | --------------- |
+| [`eslint`](https://www.npmjs.com/package/eslint)                                       | `8 \|\| 9`      |
+| [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)             | `^7.35.0`       |
+| [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks) | `^4.6.0 \|\| 5` |
 
 ### Using [npm](https://www.npmjs.com/)
 
