@@ -1,6 +1,6 @@
 {
   "name": "@herp-inc/eslint-config-jsx",
-  "version": "202412.0.0",
+  "version": "202412.1.0",
   "description": "ESLint shareable config for JSX environments",
   "main": "index.js",
   "exports": {
