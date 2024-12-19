@@ -204,6 +204,9 @@ module.exports = {
         '@typescript-eslint/prefer-literal-enum-member': 'warn',
         '@typescript-eslint/prefer-return-this-type': 'warn',
         '@typescript-eslint/unified-signatures': 'warn',
+
+        // Preview 202412
+        'default-case-last': 'warn',
       },
     },
     {
