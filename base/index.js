@@ -207,6 +207,7 @@ module.exports = {
 
         // Preview 202412
         'default-case-last': 'warn',
+        '@typescript-eslint/no-unnecessary-template-expression': 'warn',
       },
     },
     {
